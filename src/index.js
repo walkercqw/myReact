@@ -8,6 +8,12 @@ test.map(item => {
     let abc = <h1>{item}</h1>
     arr.push(abc)
 })
+const leave = 
+<div>
+    你好我是react
+    {arr}
+</div>
+
 ReactDom.render(
-    arr
+    leave
     ,document.querySelector("#app"))
